@@ -1,0 +1,337 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+/*Header*/
+#header{
+    position: absolute;
+    width: 100%;
+    /*padding: 10px;*/
+    margin-top: 40px;
+    top: 0; left: 0;
+    background-color: #292a2e;
+    border-bottom: 10px solid #ff4059;
+    overflow: hidden;
+    text-align:center;
+}
+#header h1 a{
+     color: black;
+    font-weight: bold;
+    text-shadow: -2px -2px 0 #dfff2b, 2px -2px 0 #dfff2b, -2px 2px 0 #dfff2b, 2px 2px 0 #dfff2b;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#header img{
+    display: inline-block; 
+    width: 150px;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+#header a, #header p{
+    display: inline-block;  
+    text-decoration: none;
+    left: 0px;
+    line-height: 0;
+}
+
+#header p{
+    color: #dfff2b;
+    font-weight: 800;
+    font-size: 140%;
+}
+
+/*Content*/
+#content{
+    box-sizing: border-box;
+    min-height: 700px;
+    margin-bottom: 100px;
+}
+
+/*Main*/
+#main{
+    box-sizing: border-box;
+    text-align: center;
+    border: 100px;
+    margin-top: 200px;
+    min-width: 768px !important;
+}
+#main h2{
+    margin: 40px;
+    border-bottom: 8px solid #dfff2b;
+    display: inline-block;
+    font-size: 200%;
+    text-transform: capitalize;
+}
+
+#main img{
+    width: 100%; height: auto;
+    display: inline-block;
+    min-height: 401px;
+    /*border-radius: 5px;*/
+}
+#main .main-presentation{
+    display: inline-block;
+     box-sizing: border-box;
+    max-width: 70%;
+}
+#main .main-presentation p{
+    font-size: 130%;    
+}
+
+.main-content{
+    box-sizing: border-box;
+    display:table;  
+    margin: auto;
+    /*width: 100%;*/
+
+}
+
+.imgContainer{
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+    /*border-radius: 5px;   */
+}
+
+.fullBackground{
+    position: relative;
+    background: black url(falcon-spaceship2.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: auto; 
+    width: 100%;
+    margin: 0;
+    left:0;
+    /*padding: 20px;*/
+    padding-bottom: 40px;
+    color: #ffffff;
+    display: table;
+}
+
+.card{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    border: 5px solid #fff;
+}
+
+.col3{
+    width: 31.3333%;
+    box-sizing: border-box;
+}
+
+.innerContent{
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    /*display: inline-block;*/
+    background: rgba(255, 64, 89, 0.2);
+    padding: 10px; 
+    min-height: 300px;
+    margin: 10px;
+    float: left;
+}
+
+.innerContent h4{
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 130%;
+}
+
+.innerContent p{
+    box-sizing: border-box;
+    margin: 0px 10px 0px 10px;
+    font-size: 18px;
+}
+
+.fullBackground h3{
+    margin: 40px 20px 20px 0px;
+}
+
+.fullBackground h3 span { 
+   color: white;
+   font-size: 24px;
+   font-weight: bold; 
+   letter-spacing: 2px;  
+   background: rgba(255, 64, 89, 0.4);
+   padding: 10px; 
+}
+
+/*Navigation*/
+#navigation{
+    right: 0;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #101721;
+}
+
+#navigation > ul > li {
+    /*float: right;*/
+    display: inline-block;
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#navigation li a:hover {
+    background-color: #292a2e;
+}
+
+#footer{
+    box-sizing: border-box;
+    /*position: absolute;*/
+    left:0; bottom:0;
+    text-align: center;
+    width: 100%;    height: 7%;
+    background-color: #b2b4ba;
+    overflow: hidden;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float:left;
+}
+
+
+/*Form*/
+div.form{
+    box-sizing: border-box;
+    width: 650px;
+    float: left;
+    padding: 20px;
+}
+
+.form label{
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+}
+
+.form input, .form textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0 ;
+    border: 1px solid #ccc;
+    display: inline-block;
+    color: #555;
+}
+
+.form input:focus, .form input:texture{
+    color: #ff4059;
+    border: 3px solid #ff4059;
+}
+
+textarea{
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+.form button{
+    width: 100%;
+    background-color: #ff4059;
+    color: #ffffff;
+    border: 4px solid #ff4059;
+    cursor: pointer;
+    padding: 14px 20px;
+    font-size: 150%;
+}
+
+.form button:hover{
+    background-color: #ff2643;
+    border: 4px solid #ff2643;
+}
+
+/*Accordion*/
+#accordion{
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    margin:20px;
+}
+
+
+#panel-container{
+    width: 900px;
+}
+
+.panel{
+    float:left;
+    margin-right: -350px;
+    cursor: pointer;
+    box-shadow: 0 0 30px #000;
+    background: #679;
+    position: relative;
+    transition: 0.5s;
+}
+
+.panel:focus{
+    margin-right: 0;
+    outline: 0;
+    transition: 1s;
+}
+
+.panel:focus img{
+   opacity:1;
+}
+
+.panel:focus .caption{
+    opacity: 1;
+}
+
+.panel img{
+    opacity: 0.25;
+}
+
+.panel:hover img{
+    opacity: 1;
+}
+
+.caption{
+    width:100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    font: 14px Arial, sans-serif;
+    margin:0;
+    position: absolute;
+    bottom:0px;
+    opacity: 0;
+    transition: 1s;
+}
+
+
+.caption a{
+    color: #fff;
+}
+
+@media screen and (max-width: 1014px){
+    .col3{
+        width: 30.333%;
+    }   
+}
