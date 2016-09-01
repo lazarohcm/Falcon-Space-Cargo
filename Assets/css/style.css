@@ -168,7 +168,8 @@ div.section > p{
     font-size: 130%;
 }
 
-.innerContent p{
+.innerContent p,
+.imgContainer p{
     box-sizing: border-box;
     margin: 0px 10px 0px 10px;
     font-size: 18px;
