@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
+    margin: 0;
 }
 
 /*Header*/
@@ -57,6 +58,11 @@ body{
     display: inline-block;
     font-size: 200%;
     text-transform: capitalize;
+}
+
+#main a{
+    color: #ff4059;
+    text-decoration:none;
 }
 
 #main img{
@@ -136,10 +142,10 @@ div.section > p{
 /*    border: 5px solid #fff;*/
 }
 
-.col3{
-    width: 33.3333%;
+.row{
     box-sizing: border-box;
-    float:left;
+    margin: 20px 0px 20px 0px;
+    overflow: hidden;
 }
 
 .col2{
@@ -147,6 +153,24 @@ div.section > p{
     box-sizing: border-box;
     width: 50%;
     float: left;
+}
+
+.col3{
+    width: 33.3333%;
+    box-sizing: border-box;
+    float:left;
+}
+
+.col4{
+    padding: 0 8px;
+    width: 24.9999%;
+    box-sizing: border-box;
+    float:left;
+}
+
+.circle{
+    box-sizing: border-box;
+    border-radius: 50%;
 }
 
 .innerContent{
